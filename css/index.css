@@ -12,10 +12,6 @@ h1 {
 a {
   text-decoration: none; }
 
-img {
-  width: 200px;
-  height: 200px; }
-
 input {
   font-size: 25px;
   height: 40px;
@@ -29,6 +25,12 @@ button {
   border: 0;
   height: 40px;
   padding: 6px; }
+
+p {
+  background-color: white;
+  color: #231F20;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em; }
 
 .princ {
   display: flex;
@@ -54,12 +56,5 @@ button {
   font-family: "Rokkitt", serif;
   background-color: #6646a0;
   color: white; }
-
-p {
-  padding: 30;
-  background-color: white;
-  color: #231F20;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em; }
 
 /*# sourceMappingURL=index.css.map */
