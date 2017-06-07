@@ -4,22 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Wikipedia Viewer</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rokkitt" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
   <div class="container">
 <div class="container princ">  <h1>Wikipedia Viewer</h1>
-  <p>You can click the W button to get a random article, or simply make a search below</p>
-    <a href="https://en.wikipedia.org/wiki/Special:Random" target="blank"><img src="https://lh5.ggpht.com/1Erjb8gyF0RCc9uhnlfUdbU603IgMm-G-Y3aJuFcfQpno0N4HQIVkTZERCTo65Iz2II=w300-rw" alt=""/></a>
+
   <div class="container busq">  <input type="text" class="from-control" id="barraBusqueda"/>
-    <button id ="search" type="button" class="btn btn-primary">Search</button></div>
+    <button id ="search" type="button" class="btn btn-primary">Search  <i class="fa fa-search" aria-hidden="true"></i></button>
+    <button id ="random" type="button" class="btn btn-primary"><a href="https://en.wikipedia.org/wiki/Special:Random" target="blank">Random  <i class="fa fa-random" aria-hidden="true"></i></a></button>
+    </div>
 </div>
     <section id="output">
 
     </section>
   </div>
+<script src="https://use.fontawesome.com/c506bacfcb.js"></script>
 
   <script
   src="https://code.jquery.com/jquery-3.2.1.js"

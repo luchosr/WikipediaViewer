@@ -19,8 +19,9 @@ $(document).ready(function() {
         dataType: "jsonp",
         success: function(data) {
           for (var i in data[1]) {
-
+            if (data[3][i] !== "") {
               $('#output').append("<div class='item'><a href=" + data[3][i] + " target='blank' >" + data[1][i] + "</a> <br>" + "<p>"+data[2][i]+"</p></div>");
+            }
               $(".item").fadeIn(200);
 
           }

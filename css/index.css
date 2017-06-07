@@ -9,6 +9,9 @@ h1 {
   font-family: "Rokkitt", serif;
   margin: 20px; }
 
+a {
+  text-decoration: none; }
+
 img {
   width: 200px;
   height: 200px; }
@@ -20,17 +23,17 @@ img {
   flex-direction: column; }
 
 input {
-  font-size: 40px;
-  height: 70px;
+  font-size: 25px;
+  height: 40px;
   border-radius: 3px;
   width: 450px;
   margin-right: 10px; }
 
 button {
-  font-size: 40px;
+  font-size: 25px;
   border-radius: 5px;
   border: 0;
-  height: 70px;
+  height: 40px;
   padding: 6px; }
 
 .busq {
@@ -38,23 +41,25 @@ button {
   flex-wrap: nowrap; }
 
 .item {
-  margin-top: 50px;
+  margin: 50px 25px;
   display: none; }
 
 .item a, p {
-  padding: 10px;
+  padding: 15px;
   border-radius: 3px;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  margin-bottom: 15px; }
 
-.item a, button {
+.item a, button, a:visited, a:hover, a:active {
   font-family: "Rokkitt", serif;
   background-color: #6646a0;
-  text-decoration: none;
   color: white; }
 
 p {
+  padding: 30;
   background-color: white;
   color: #231F20;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em; }
 
 /*# sourceMappingURL=index.css.map */
