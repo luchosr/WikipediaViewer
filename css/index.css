@@ -16,12 +16,6 @@ img {
   width: 200px;
   height: 200px; }
 
-.princ {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; }
-
 input {
   font-size: 25px;
   height: 40px;
@@ -36,6 +30,12 @@ button {
   height: 40px;
   padding: 6px; }
 
+.princ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
 .busq {
   display: flex;
   flex-wrap: nowrap; }
@@ -45,7 +45,7 @@ button {
   display: none; }
 
 .item a, p {
-  padding: 15px;
+  padding: 10px;
   border-radius: 3px;
   font-size: 1.5em;
   margin-bottom: 15px; }
